@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #dddfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.FooterWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75vw;
+
+    border-bottom: 0.4vh solid #ff9505;
+}
+
+.Link {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3f4739;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.Icon {
+    width: 8vw;
+    height: 8vh;
+    color: #ff9505;
+}

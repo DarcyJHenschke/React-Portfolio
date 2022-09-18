@@ -1,0 +1,46 @@
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.MainWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: 10vh;
+    width: 85vw;
+}
+
+.Heading {
+    color: #3f4739;
+    font-weight: 700;
+    font-size: 7vh;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+.SubHeading {
+    color: #3f4739;
+    font-weight: 600;
+    font-size: 6vh;
+    text-align: left;
+    margin-bottom: 1vh;
+}
+
+.Paragraph {
+    color: #3f4739;
+    font-weight: 200;
+    font-size: 3vh;
+    text-align: left;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

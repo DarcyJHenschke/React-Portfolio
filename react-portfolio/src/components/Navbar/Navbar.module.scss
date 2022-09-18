@@ -1,0 +1,51 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 0 5vw 0 5vw;
+    background-color: #dddfdf;
+    font-family: Trispace, sans-serif;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.LogoLink {
+    all: unset;
+}
+
+.LinkList {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10vw;
+    width: 50vw;
+    list-style: none;
+    font-size: 2vh;
+}
+
+.LogoText {
+    color: #3f4739;
+    font-weight: 400;
+    font-size: 3vh;
+}
+.D {
+    color: #ff9505;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.FirstName {
+    color: #3f4739;
+    font-weight: 400;
+}
+
+.LastName {
+    color: #ff9505;
+    font-weight: 400;
+}

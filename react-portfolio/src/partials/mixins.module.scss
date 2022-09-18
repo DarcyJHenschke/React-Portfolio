@@ -1,0 +1,62 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin primary-palette {
+    background-color: rgb(221, 223, 223);
+    color: rgb(63, 71, 57);
+    font-family: Trispace, sans-serif;
+}
+
+@mixin secondary-palette {
+    background-color: rgb(63, 71, 57);
+    color: rgb(221, 223, 223);
+    font-family: Trispace, sans-serif;
+}
+
+@mixin link-styling {
+    color: rgb(63, 71, 57);
+    font-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+@mixin hover-link-styling {
+    color: rgb(255, 149, 5);
+}
+
+@mixin page-size {
+    width: 100vw;
+    min-height: 100vh;
+}
+@mixin section-title {
+    font-size: 5vh;
+    text-decoration: underline rgb(255, 149, 5);
+    margin-top: 10vh;
+}
+
+@mixin default-width {
+    width: 100vw;
+}
+
+@mixin logo-styles {
+    color: #3f4739;
+    font-weight: 400;
+    font-size: 3vh;
+}
