@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./containers/Home";
 import About from "./containers/About";
 import Stack from "./containers/Stack";
+import Projects from "./containers/Projects";
 function App() {
     return (
         <main style={{ backgroundColor: "#dddfdf" }}>
@@ -13,7 +14,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/stack" element={<Stack />} />
-                    <Route path="/projects" />
+                    <Route path="/projects" element={<Projects />} />
                     <Route path="/contact" />
                 </Routes>
             </BrowserRouter>

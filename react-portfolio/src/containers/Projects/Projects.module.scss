@@ -1,0 +1,22 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.ProjectCard {
+    margin: 1rem 0 1rem 0;
+}
+
+.Icon {
+    height: 7.5vh;
+    width: 7.5vw;
+}
+
+.Links {
+    height: 5vh;
+    width: 5vh;
+    color: #3f4739;
+    padding: 1rem;
+}
